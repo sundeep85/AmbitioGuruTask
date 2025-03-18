@@ -5,11 +5,11 @@ import time
 # Set up Appium Desired Capabilities
 desired_caps = {
     "platformName": "Android",
-    "deviceName": "emulator-5554",  # Replace with your device/emulator name
+    "deviceName": "emulator-5554", 
     "appPackage": "com.facebook.katana",
     "appActivity": "com.facebook.katana.LoginActivity",
     "automationName": "UiAutomator2",
-    "noReset": True  # Prevents app from resetting after each run
+    "noReset": True 
 }
 
 # Initialize Appium Driver
